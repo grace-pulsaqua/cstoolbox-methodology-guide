@@ -1,0 +1,93 @@
+{
+    "q1": {
+        "number": "1",
+        "text": "In which area would you like assistance?",
+        "answers": {
+            "a": "I need help exploring current CS projects",
+            "b": "I need help designing my own CS project",
+            "c": "I'm not sure yet"
+        }
+    },
+    "q2": {
+        "number": "2",
+        "text": "Is there a particular project theme you are interested in?",
+        "answers": {
+            "a": "I'm not sure yet",
+            "__ALPHABET_VALUE__": "__UNIQUE_VALUES__"
+        },
+        "action": {
+            "condition": "theme",
+            "true": "theme=answer",
+            "false": "theme='all'"
+        }
+    },
+    "q3": {
+        "number": "3",
+        "text": "Are you looking for projects in a specific country?",
+        "answers": {
+            "a": "I'm not sure yet",
+            "__ALPHABET_VALUE__": "__UNIQUE_VALUES__"
+        },
+        "action": {
+            "condition": "country",
+            "true": "country=country",
+            "false": "country='all'"
+        }
+    },
+    "q4": {
+        "number": "4",
+        "text": "Are you looking for a project that is currently active, or for example, are you looking for project inpiration irregardless of inactivity?",
+        "answers": {
+            "a": "Active projects only",
+            "b": "Any project, active or inactive",
+            "c": "I'm not sure yet"
+        },
+        "action": {
+            "condition": "currently_active",
+            "true": "currently_active=y",
+            "false": "currently_active='all'"
+        }
+    },
+    "q5": {
+        "number": "5",
+        "text": "Are you looking for a project which has material available for teaching school children or young adults?",
+        "answers": {
+            "a": "Yes",
+            "b": "No",
+            "c": "I'm not sure yet"
+        },
+        "action": {
+            "condition": "teaching_material",
+            "true": "teaching_material_yn=y",
+            "false": "teaching_material_yn='all'"
+        }
+    },
+    "q6": {
+        "number": "6",
+        "text": "Are you looking for a project with open data, allowing you to download the data and analyse them yourself?",
+        "answers": {
+            "a": "Yes, open data",
+            "b": "Not per se",
+            "c": "I'm not sure yet"
+        },
+        "action": {
+            "condition": "open_data_download",
+            "true": "open_data_download_yn=y",
+            "false": "open_data_download_yn='all'"
+        }
+    },
+    "q7": {
+        "number": "7",
+        "text": "Are you looking for an phone app to assist with data collection?",
+        "answers": {
+            "a": "Yes, I want an app to use",
+            "b": "Not per se",
+            "c": "I'm not sure yet"
+        },
+        "action": {
+            "condition": "app",
+            "true": "app_yn=y",
+            "false": "app_yn='all'"
+        }
+    }
+}
