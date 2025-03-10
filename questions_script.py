@@ -9,113 +9,84 @@ to be edited directly.
 
 import json
 
+# methods: single, multiple, dropdown,
 
 q1 = {
     "number": "1",
+    "type": "single",
     "text": "In which area would you like assistance?",
-    "answers": {
-        "a":"I need help exploring current CS projects",
-        "b":"I need help designing my own CS project",
-        "c":"I'm not sure yet"
-    }
+    "options": ["I need help exploring current CS projects",
+                "I need help designing my own CS project",
+                "I'm not sure yet"
+    ],
+    "proj_column": "type"
 }
 
 q2 = {
     "number": "2",
+    "type": "multiple",
     "text": "Is there a particular project theme you are interested in?",
-    "answers": {
-        "a":"I'm not sure yet",
-        "__ALPHABET_VALUE__":"__UNIQUE_VALUES__" # df.colname.unique() (have script re-write the json if the unique values are not the same, or maybe load them as a variable beforehand)
-    },
-    "action": {
-        "condition": "theme",
-        "true": "theme=answer",
-        "false": "theme='all'" # all? how to code this?
-    }
+    "options": ["__UNIQUE_VALUES__", # df.colname.unique() (have script re-write the json if the unique values are not the same, or maybe load them as a variable beforehand)
+                "I'm not sure yet"
+                ],
+    "proj_column": "theme"
 }
-
-# execution would be:
-# action = question["action"]
-# if eval(action["condition"]):  # Check condition
-#     exec(action["true"])  # Run true action
-# else:
-#     exec(action["false"])  # Run false action
 
 
 q3 = {
     "number": "3",
+    "type": "multiple",
     "text": "Are you looking for projects in a specific country?",
-    "answers": {
-        "a": "I'm not sure yet",
-        "__ALPHABET_VALUE__": "__UNIQUE_VALUES__"
-    },
-    "action": {
-        "condition": "country", # if a country is selected.. (?)
-        "true": "country=country",
-        "false": "country='all'" # all? how to code this?
-    }
+    "options": ["__UNIQUE_VALUES__",
+                "I'm not sure yet"
+                ],
+    "proj_column": "region"
 }
 
 q4 = {
     "number": "4",
+    "type": "single",
     "text": "Are you looking for a project that is currently active, or for example, are you looking for project inpiration irregardless of inactivity?",
-    "answers": {
-        "a": "Active projects only",
-        "b": "Any project, active or inactive",
-        "c": "I'm not sure yet"
-    },
-    "action": {
-        "condition": "currently_active",  # if selected.. (?)
-        "true": "currently_active=y", # could make this a object then run filter later?
-        "false": "currently_active='all'"  # all? how to code this?
-    }
+    "options": {"Active projects only":"Yes",
+                "Any project, active or inactive":"No",
+                "I'm not sure yet":"No"
+                },
+    "proj_column": "currently_active_yn"
 }
 
 q5 = {
     "number": "5",
+    "type": "single",
     "text": "Are you looking for a project which has material available for teaching school children or young adults?",
-    "answers": {
-        "a": "Yes",
-        "b": "No",
-        "c": "I'm not sure yet"
-    },
-    "action": {
-        "condition": "teaching_material",  # if selected.. (?)
-        "true": "teaching_material_yn=y",  # could make this a object then run filter later?
-        "false": "teaching_material_yn='all'"  # all? how to code this?
-    }
+    "options": {"Yes that would be helpful":"Yes",
+                "Not per se":"No",
+                "I'm not sure yet":"No"
+                },
+    "proj_column": "teaching_material_yn"
 }
 
 
 q6 = {
     "number": "6",
+    "type": "single",
     "text": "Are you looking for a project with open data, allowing you to download the data and analyse them yourself?",
-    "answers": {
-        "a": "Yes, open data",
-        "b": "Not per se",
-        "c": "I'm not sure yet"
-    },
-    "action": {
-        "condition": "open_data_download",  # if selected.. (?)
-        "true": "open_data_download_yn=y",  # could make this a object then run filter later?
-        "false": "open_data_download_yn='all'"  # all? how to code this?
-    }
+    "options": {"Yes, open data":"Yes",
+                "Not per se":"No",
+                "I'm not sure yet":"No"
+                },
+    "proj_column": "open_data_download_yn"
 }
 
 
 q7 = {
     "number": "7",
+    "type": "single",
     "text": "Are you looking for an phone app to assist with data collection?",
-    "answers": {
-        "a": "Yes, I want an app to use",
-        "b": "Not per se",
-        "c": "I'm not sure yet"
-    },
-    "action": {
-        "condition": "app",  # if selected.. (?)
-        "true": "app_yn=y",  # could make this a object then run filter later?
-        "false": "app_yn='all'"  # all? how to code this?
-    }
+    "options": {"Yes, I want an app to use":"Yes",
+                "Not per se":"No",
+                "I'm not sure yet":"No"
+                },
+    "proj_column": "app_yn"
 }
 
 

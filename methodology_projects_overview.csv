@@ -1,0 +1,54 @@
+﻿id,project_name,short_description,link,theme,type,currently_active_yn,teaching_material_yn,physical_kit_yn,app_yn,data_platform_yn,open_data_download_yn,info_last_checked,region
+1,Bioblitz,Method of dense species recording within a specific area and time frame. Teaching material is searchable and widespread.,https://media.nationalgeographic.org/assets/file/NationalGeographicBioBlitzGuide.pdf,biodiversity,Method,Yes,Yes,No,No,No,No,13/02/2025,Global
+2,OSPAR,Beach monitoring litter categorisation method,https://www.ospar.org/work-areas/eiha/marine-litter/assessment-of-marine-litter/beach-litter,plastic and other waste,Method,Yes,No,No,No,No,No,13/02/2025,Global
+3,Plastic Pirates,"Plastic monitoring method, with lesson material for schools",https://www.plastic-pirates.eu/en,plastic and other waste,Method,Yes,Yes,No,No,No,No,13/02/2025,Europe
+4,Check de Stadsvergroening,"Soil moisture, porosity and infiltration capacity project",https://www.tudelft.nl/scd/waterlab/doe-mee-aan-onderzoek/project-2-check-de-stadsvergroening,hydrology and meteorology,Project,,,No,No,No,No,13/02/2025,Netherlands
+5,Coast Snap,Community beach monitoring with phone stands for taking photos,https://www.coastsnap.com/ ,hydrology and meteorology,Project,Yes,No,No,Yes,No,Yes,13/02/2025,Global
+6,CoCoRaHs,Rainfall measurements in USA,https://www.cocorahs.org/,hydrology and meteorology,Project,,,No,No,Yes,No,13/02/2025,United States
+7,Crowdwater,Water level tracking app,https://crowdwater.ch/en/start/,hydrology and meteorology,Project,,,No,Yes,Yes,Yes,13/02/2025,Global
+8,Earth Challenge,Earth Challenge is an NGO that tries to help answer global questions using citizen science methods,https://www.earthday.org/earth-day-2025/,various,Project,Yes,Yes,No,No,No,No,13/02/2025,Global
+9,Effects of Covid-19 Litter on animals,An investigation of covid litter,https://www.covidlitter.com/,plastic and other waste,Project,No,No,No,No,Yes,Yes,13/02/2025,Global
+10,Eye On Water,Defining water quality by taking a picture of the water color,https://www.eyeonwater.org/,water quality,Project,Yes,No,No,Yes,Yes,Yes,13/02/2025,Global
+11,Feederwatch,Observe a record birds you see in your garden or around the neighbourhood.,https://feederwatch.org/about/project-overview/ ,biodiversity,Project,Yes,No,No,Yes,No,No,25/02/2025,United States
+12,Florida Horseshoe Crab Watch,Report horseshoe crabs on the beach,https://myfwc.com/research/saltwater/crustaceans/horseshoe-crabs/citizen-watch/,biodiversity,Project,Yes,No,No,No,No,No,13/02/2025,United States
+13,Flow DE ,"Stream quality project ""our rivers"" in Germany.",https://www.flow-projekt.de/index.php/en/about-flow,ecosystem restoration,Project,Yes,No,Yes,No,No,No,13/02/2025,Germany
+14,Foldit,A protein-folding computer game where high scores are researched as protein possbilities.,https://fold.it/about_foldit ,biochemistry,Project,Yes,No,No,No,No,No,14/02/2025,Global
+15,Globe Observer: Clouds,Track changes in clouds in support of climate research,https://observer.globe.gov/do-globe-observer/clouds ,various,Project,Yes,Yes,No,Yes,No,Yes,14/02/2025,Global
+16,Great Backyard Bird Count,Global bird count once per year over 4 days,https://www.birdcount.org/ ,biodiversity,Project,Yes,Yes,No,Yes,Yes,No,13/02/2025,Global
+17,Hui O Ka Wai Ola (Association Of The Living Waters),Measure physical and chemical parameters of Hawaii coastal waters.,https://www.huiokawaiola.com/,water quality,Project,Yes,No,Yes,No,Yes,Yes,13/02/2025,Hawaii
+18,Journey North,"Report migrating fauna, incl. teaching tools",https://journeynorth.org/,biodiversity,Project,Yes,Yes,No,No,Yes,Yes,13/02/2025,United States
+19,Litterati,Litter categorising app,https://play.google.com/store/apps/details?hl=en_US&id=org.litterati.android,plastic and other waste,Project,Yes,No,No,Yes,No,No,13/02/2025,United States
+20,Meet je Stad NL,"Parameters: Temperature, soil moisture, humidity, flora",https://meetjestad.net/,hydrology and meteorology,Project,Yes,No,Yes,No,Yes,Yes,13/02/2025,Netherlands
+21,PooPower!,Take a photo of dog poo to track water contamination and raise awareness,https://blog.nature.org/2014/12/02/citizen-science-poo-power-biogas-water-quality-dog-bacteria/,plastic and other waste,Project,No,No,No,Yes,No,No,13/02/2025,Australia
+22,RiverDip,Phosphate strips with app,https://riverdip.com/,water quality,Project,Yes,No,Yes,Yes,No,No,13/02/2025,Europe
+23,Sandwatch,A UNESCO initiative to monitor climate change effects on coasts (mostly Small Islands),https://www.sandwatchfoundation.org/,climate change,Project,Yes,Yes,No,No,No,No,13/02/2025,Global
+24,Schone Rivieren,Riverbank monitoring,https://www.schonerivieren.org/knowledge/voor-onderzoekers/,plastic and other waste,Project,Yes,No,No,No,No,No,13/02/2025,Netherlands
+25,Teatime 4 Science,Decomposoition rate with teabags,http://www.teatime4science.org/ ,climate change,Project,,,No,No,No,No,13/02/2025,Global
+26,The Big Microplastic Survey,A Global Microplastic monitoring initiative,https://microplasticsurvey.org/,plastic and other waste,Project,,,No,No,No,No,13/02/2025,Global
+27,TreeSnap,App to record the location and health of threatened trees.,https://treesnap.org/,biodiversity,Project,Yes,No,No,Yes,No,No,14/02/2025,United States
+28,Waterdiertjes NL,Aquatic animals data collection,https://waterdiertjes.nl/#/info,biodiversity,Project,Yes,No,No,Yes,Yes,Yes,13/02/2025,Netherlands
+29,Waterwalks,An open platform to collect any stories around the Nieuwe Maas,https://www.waterwalks.nl,recording data,Project,Yes,No,No,Yes,No,No,13/02/2025,Netherlands
+30,Drinkable Rivers,Water testing kit,https://drinkablerivers.org/,water quality,"Project, Tool",Yes,Yes,Yes,No,Yes,No,13/02/2025,Global
+31,Water Rangers,Water testing kit,https://waterrangers.ca/testkits/,water quality,"Project, Tool",Yes,No,Yes,Yes,Yes,Yes,13/02/2025,Global
+32,Smartphones4Water,Organise various projects,https://smartphones4water.org/,hydrology and meteorology,Service,Yes,No,No,No,Yes,Yes,13/02/2025,Global
+33,Amsterdam Sounds Kit Waag,Open-source noise pollution kit,https://amsterdamsounds.waag.org/,noise pollution,Tool,,,Yes,No,No,No,13/02/2025,Netherlands
+34,Deltares Aquality App,Nitrate strip kit and data map,https://nitrate-app.deltares.nl/,water quality,Tool,,,Yes,Yes,Yes,Yes,13/02/2025,Global
+35,Discharge,"Platform for professional surface flow measurements, app",https://discharge.ch/,hydrology and meteorology,Tool,,,No,Yes,Yes,No,13/02/2025,Global
+36,Earth Echo Water Challenge,Water testing kit,https://www.monitorwater.org/order-kits,water quality,Tool,Yes,Yes,Yes,No,No,No,13/02/2025,Global
+37,EpiCollect,Free mobile data-gathering platform,https://five.epicollect.net/,recording data,Tool,Yes,No,No,Yes,Yes,No,13/02/2025,Global
+38,FieldForm Artesia,For recording groundwater data,https://www.artesia-water.nl/software/fieldform/,recording data,Tool,Yes,No,No,Yes,No,No,13/02/2025,Netherlands
+39,GIS Cloud Mobile Data Collection,Paid survey builder and app,https://www.giscloud.com/apps/mobile-data-collection/,recording data,Tool,Yes,No,No,Yes,Yes,No,13/02/2025,Global
+40,iNaturalist,Identifying Flora and Fauna with applications on smartphone,https://www.inaturalist.org/,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Global
+41,Luftdaten,Real-time air quality sensor network,https://aqicn.org/station/network/luftdaten,air quality,Tool,,,Yes,No,Yes,Yes,13/02/2025,Global
+42,ObsIdentify,Identifying Flora and Fauna with applications on smartphone,https://play.google.com/store/apps/details?id=org.observation.obsidentify&hl=en&pli=1,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Global
+43,Open Data Kit,Paid data collection software,https://getodk.org/,recording data,Tool,,,,,,,13/02/2025,Global
+44,PlantNet,"Flora and Fauna AI image recognition with an app, with post-validation",https://plantnet.org/en/ ,biodiversity,Tool,Yes,No,No,Yes,Yes,Yes,13/02/2025,Global
+45,Plastic Avengers,app,https://play.google.com/store/apps/details?id=com.incentro.plastic_soup_surfer,plastic and other waste,Tool,,,No,Yes,No,No,13/02/2025,Netherlands
+46,Pocket Science,Connect a sensor to your phone,https://pocket.science/,various,Tool,,,,,,,13/02/2025,
+47,Sensor Community,Air and noise measurement kits and sensor network.,https://sensor.community/en/ ,various,Tool,,,Yes,No,No,Yes,13/02/2025,Global
+48,Waarnemingen NL,Identifying Flora and Fauna with applications on smartphone,https://waarneming.nl/,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Netherlands
+49,Weather Observations Website (WOW),Connect your weather station to a global map,https://www.wow.metoffice.gov.uk/,hydrology and meteorology,Tool,Yes,Yes,No,No,Yes,No,13/02/2025,Global
+50,AKVO,"Offers water quality measurment tools and services, e.g. Caddisfly",https://akvo.org/stories/east-africa/using-citizen-science-to-monitor-the-health-of-nairobis-rivers/,water quality,"Tool, Service",Yes,No,No,No,No,No,13/02/2025,Global
+51,Curieuze Neuzen,,https://curieuzeneuzen.be/ ,various,Project,No,,,,,,25/02/2025,Belguim
+52,Minka,Biodiversity data collection app,https://minka-sdg.org/,biodiversity,Tool,Yes,No,No,Yes,Yes,No,27/02/2025,Global
+53,BioMARathon,Biodiversity data mass collection event (with Minka),https://aneris.eu/news/thre-biomarathons-kick-supported-aneris,biodiversity,Method,Yes,No,No,Yes,Yes,No,27/02/2025,Europe
