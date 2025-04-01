@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#47b244" # green details
+backgroundColor="#2e86a7" # mid blue background
+secondaryBackgroundColor="#729cb3" # pale blue text boxes/widgets/sidebar
+textColor="#ffffff" # white
+font="serif"

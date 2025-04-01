@@ -46,7 +46,7 @@ q3 = {
 q4 = {
     "number": "4",
     "type": "single",
-    "text": "Are you looking for a project that is currently active, or for example, are you looking for project inpiration irregardless of inactivity?",
+    "text": "Are you looking for a project that is currently active, or for example, are you looking for project inspiration irregardless of inactivity?",
     "options": {"Active projects only":"Yes",
                 "Any project, active or inactive":"No",
                 "I'm not sure yet":"No"
