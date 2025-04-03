@@ -95,9 +95,24 @@ for q_id, q in questions.items():
                 filtered_df = filtered_df[filtered_df[q_col].isin(mapped_answer)]
 
 
-# ---- DISPLAY RESULTS ----
-st.write("### Recommended Projects/Methods:")
-st.dataframe(filtered_df)
+# ---- DISPLAY RESULTS BUTTON ----
+if st.button("🚀 Generate My Results"):
+    st.write("## Recommended Projects/Methods:")
+
+    if filtered_df.empty:
+        st.write("❌ No matching projects found. Try adjusting your answers!")
+    else:
+        for _, row in filtered_df.iterrows():
+            st.markdown(f"""
+                ### {row["project_name"]}
+            """)
+            st.markdown(f"""
+                *Type*: {row["type"]}  
+                *Summary*: {row["short_description"]}  
+                🔗 [Take me there!]({row["link"]})
+                ---
+            """)
+
 
 
 
