@@ -40,14 +40,14 @@ with open("questions_json.json", "r", encoding="utf-8") as f:
 
 # ---- UNIQUE VALUE OPTION ASSIGNMENT ----
 # Getting unique values
-unique_themes = proj_df["theme"].unique().tolist() # q2
-unique_regions = proj_df["region"].unique().tolist() # q3
+unique_themes = proj_df["theme"].unique().tolist() # q3
+unique_regions = proj_df["region"].unique().tolist() # q4
 
 # Replacing "__UNIQUE_VALUES__" with actual values from project df
-questions["q2"]["options"] = unique_themes # q2
-questions["q2"]["options"].append("I'm not sure yet") # q2
-questions["q3"]["options"] = unique_regions # q3
+questions["q3"]["options"] = unique_themes # q3
 questions["q3"]["options"].append("I'm not sure yet") # q3
+questions["q4"]["options"] = unique_regions # q4
+questions["q4"]["options"].append("I'm not sure yet") # q4
 
 # ---- SESSION STATE INITIALIZATION ----
 # Initialising session state, so that re-runs of the script in the same window keep responses
@@ -55,15 +55,44 @@ if "responses" not in st.session_state:
     st.session_state.responses = {} # "if dictionary of responses doesn't already exist, make one."
 
 # ---- ASK QUESTIONS ----
-st.title("Citizen Science Methodology and Project Guide")
+st.logo("logo_d4a.jpg", size="large")
+st.title("Local Action Guide Quiz")
+st.image("wscu_canoe_2025-04-06.jpg")
+st.markdown('''
+----------------------------------------------------
+What events are already being organised, and what could I organise myself?
+
+There are multitudes projects and tools shared online, some hidden gems and others well-established and successful.
+But finding them and selecting the most helpful can be like looking for a needle in a haystack.
+Perhaps you are looking for local action project inspiration, or perhaps you have the idea fully formed and are looking for tools and connections.  
+
+
+No matter your situation, if you're looking for guidance then this quiz aims to burn the hay and reveal your needle!  
+
+
+----------------------------------------------------
+''')
+
+
 
 for q_id, q in questions.items():
     q_number = q["number"]
     q_text = q["text"]
     q_type = q["type"]
     q_options = q["options"]
+    condition = q.get("condition")
 
-    # Displaying question based on its type
+    # Check if the question should be shown based on a condition
+    if condition:
+        dependent_q = condition["question"]
+        required_value = condition["value"]
+        current_value = st.session_state.responses.get(dependent_q)
+
+        # If the condition is not met, skip this question
+        if current_value != required_value:
+            continue
+
+    # Displaying question style based on its type
     if q_type == "single":
         st.session_state.responses[q_number] = st.radio(q_text, q_options)
     elif q_type == "multiple":
@@ -96,25 +125,30 @@ for q_id, q in questions.items():
 
 
 # ---- DISPLAY RESULTS BUTTON ----
+result_text = f""" 
+### {row["project_name"]}
+
+
+Type: {row["type"]}  
+Summary: {row["short_description"]}    
+🔗 [Take me there!]({row["link"]})  
+
+
+-------------------
+"""
+
 if st.button("🚀 Generate My Results"):
-    st.write("## Recommended Projects/Methods:")
+    st.write("## Recommended Projects, Methods or Tools:")
+
+    st.write("Explore the text and links below to get inspiration!")
 
     if filtered_df.empty:
         st.write("❌ No matching projects found. Try adjusting your answers!")
     else:
         for _, row in filtered_df.iterrows():
-            st.markdown(f"""
-                ### {row["project_name"]}
-            """)
-            st.markdown(f"""
-                *Type*: {row["type"]}  
-                *Summary*: {row["short_description"]}  
-                🔗 [Take me there!]({row["link"]})
-                ---
-            """)
+            st.markdown(result_text)
 
 
-
-
-
-
+st.markdown('''
+Click here to return to the Local Action Guide Homepage.
+''') # add the link

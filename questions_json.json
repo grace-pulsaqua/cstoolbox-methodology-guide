@@ -4,73 +4,88 @@
         "type": "single",
         "text": "In which area would you like assistance?",
         "options": [
-            "I need help exploring current CS projects",
-            "I need help designing my own CS project",
-            "I'm not sure yet"
+            "I'm not sure yet",
+            "I need help exploring current (local) environmental action initiatives",
+            "I need help designing my own inspiring project"
         ],
         "proj_column": "type"
     },
     "q2": {
         "number": "2",
-        "type": "multiple",
-        "text": "Is there a particular project theme you are interested in?",
-        "options": [
-            "__UNIQUE_VALUES__",
-            "I'm not sure yet"
-        ],
-        "proj_column": "theme"
+        "type": "single",
+        "text": "Are you looking to design a project from scratch, or model yours after an existing project?",
+        "options": {
+            "I'm not sure yet": "No",
+            "Design my own project": "Method",
+            "Model my project after an existing project": "Project"
+        },
+        "proj_column": "type",
+        "condition": {
+            "question": "1",
+            "value": "I need help designing my own inspiring project"
+        }
     },
     "q3": {
         "number": "3",
         "type": "multiple",
-        "text": "Are you looking for projects in a specific country?",
+        "text": "Is there a particular project theme you are interested in?",
         "options": [
-            "__UNIQUE_VALUES__",
-            "I'm not sure yet"
+            "I'm not sure yet",
+            "__UNIQUE_VALUES__"
         ],
-        "proj_column": "region"
+        "proj_column": "theme"
     },
     "q4": {
         "number": "4",
-        "type": "single",
-        "text": "Are you looking for a project that is currently active, or for example, are you looking for project inpiration irregardless of inactivity?",
-        "options": {
-            "Active projects only": "Yes",
-            "Any project, active or inactive": "No",
-            "I'm not sure yet": "No"
-        },
-        "proj_column": "currently_active_yn"
+        "type": "multiple",
+        "text": "Are you looking for projects in a specific country?",
+        "options": [
+            "I'm not sure yet",
+            "__UNIQUE_VALUES__"
+        ],
+        "proj_column": "region"
     },
     "q5": {
         "number": "5",
         "type": "single",
-        "text": "Are you looking for a project which has material available for teaching school children or young adults?",
+        "text": "Are you looking for a project that is currently active, or for example, are you looking for project inspiration irregardless of inactivity?",
         "options": {
-            "Yes that would be helpful": "Yes",
-            "Not per se": "No",
-            "I'm not sure yet": "No"
+            "I'm not sure yet": "No",
+            "Active projects only": "Yes",
+            "Any project, active or inactive": "No"
         },
-        "proj_column": "teaching_material_yn"
+        "proj_column": "currently_active_yn"
     },
     "q6": {
         "number": "6",
         "type": "single",
-        "text": "Are you looking for a project with open data, allowing you to download the data and analyse them yourself?",
+        "text": "Are you looking for a project which has material available for teaching school children or young adults?",
         "options": {
-            "Yes, open data": "Yes",
-            "Not per se": "No",
-            "I'm not sure yet": "No"
+            "I'm not sure yet": "No",
+            "Yes that would be helpful": "Yes",
+            "Not per se": "No"
         },
-        "proj_column": "open_data_download_yn"
+        "proj_column": "teaching_material_yn"
     },
     "q7": {
         "number": "7",
         "type": "single",
+        "text": "Are you looking for a project with open data, allowing you to download the data and analyse them yourself?",
+        "options": {
+            "I'm not sure yet": "No",
+            "Yes, open data": "Yes",
+            "Not per se": "No"
+        },
+        "proj_column": "open_data_download_yn"
+    },
+    "q8": {
+        "number": "8",
+        "type": "single",
         "text": "Are you looking for an phone app to assist with data collection?",
         "options": {
+            "I'm not sure yet": "No",
             "Yes, I want an app to use": "Yes",
-            "Not per se": "No",
-            "I'm not sure yet": "No"
+            "Not per se": "No"
         },
         "proj_column": "app_yn"
     }

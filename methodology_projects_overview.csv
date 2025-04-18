@@ -28,9 +28,9 @@
 27,TreeSnap,App to record the location and health of threatened trees.,https://treesnap.org/,biodiversity,Project,Yes,No,No,Yes,No,No,14/02/2025,United States
 28,Waterdiertjes NL,Aquatic animals data collection,https://waterdiertjes.nl/#/info,biodiversity,Project,Yes,No,No,Yes,Yes,Yes,13/02/2025,Netherlands
 29,Waterwalks,An open platform to collect any stories around the Nieuwe Maas,https://www.waterwalks.nl,recording data,Project,Yes,No,No,Yes,No,No,13/02/2025,Netherlands
-30,Drinkable Rivers,Water testing kit,https://drinkablerivers.org/,water quality,"Project, Tool",Yes,Yes,Yes,No,Yes,No,13/02/2025,Global
-31,Water Rangers,Water testing kit,https://waterrangers.ca/testkits/,water quality,"Project, Tool",Yes,No,Yes,Yes,Yes,Yes,13/02/2025,Global
-32,Smartphones4Water,Organise various projects,https://smartphones4water.org/,hydrology and meteorology,Service,Yes,No,No,No,Yes,Yes,13/02/2025,Global
+30,Drinkable Rivers,Water testing kit,https://drinkablerivers.org/,water quality,Tool,Yes,Yes,Yes,No,Yes,No,13/02/2025,Global
+31,Water Rangers,Water testing kit,https://waterrangers.ca/testkits/,water quality,Tool,Yes,No,Yes,Yes,Yes,Yes,13/02/2025,Global
+32,Smartphones4Water,Organise various projects,https://smartphones4water.org/,hydrology and meteorology,Tool,Yes,No,No,No,Yes,Yes,13/02/2025,Global
 33,Amsterdam Sounds Kit Waag,Open-source noise pollution kit,https://amsterdamsounds.waag.org/,noise pollution,Tool,,,Yes,No,No,No,13/02/2025,Netherlands
 34,Deltares Aquality App,Nitrate strip kit and data map,https://nitrate-app.deltares.nl/,water quality,Tool,,,Yes,Yes,Yes,Yes,13/02/2025,Global
 35,Discharge,"Platform for professional surface flow measurements, app",https://discharge.ch/,hydrology and meteorology,Tool,,,No,Yes,Yes,No,13/02/2025,Global
@@ -48,7 +48,7 @@
 47,Sensor Community,Air and noise measurement kits and sensor network.,https://sensor.community/en/ ,various,Tool,,,Yes,No,No,Yes,13/02/2025,Global
 48,Waarnemingen NL,Identifying Flora and Fauna with applications on smartphone,https://waarneming.nl/,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Netherlands
 49,Weather Observations Website (WOW),Connect your weather station to a global map,https://www.wow.metoffice.gov.uk/,hydrology and meteorology,Tool,Yes,Yes,No,No,Yes,No,13/02/2025,Global
-50,AKVO,"Offers water quality measurment tools and services, e.g. Caddisfly",https://akvo.org/stories/east-africa/using-citizen-science-to-monitor-the-health-of-nairobis-rivers/,water quality,"Tool, Service",Yes,No,No,No,No,No,13/02/2025,Global
+50,AKVO,"Offers water quality measurment tools and services, e.g. Caddisfly",https://akvo.org/stories/east-africa/using-citizen-science-to-monitor-the-health-of-nairobis-rivers/,water quality,Tool,Yes,No,No,No,No,No,13/02/2025,Global
 51,Curieuze Neuzen,,https://curieuzeneuzen.be/ ,various,Project,No,,,,,,25/02/2025,Belguim
 52,Minka,Biodiversity data collection app,https://minka-sdg.org/,biodiversity,Tool,Yes,No,No,Yes,Yes,No,27/02/2025,Global
 53,BioMARathon,Biodiversity data mass collection event (with Minka),https://aneris.eu/news/thre-biomarathons-kick-supported-aneris,biodiversity,Method,Yes,No,No,Yes,Yes,No,27/02/2025,Europe
