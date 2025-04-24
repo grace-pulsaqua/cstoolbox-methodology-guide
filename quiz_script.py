@@ -62,8 +62,7 @@ st.markdown('''
 ----------------------------------------------------
 What events are already being organised, and what could I organise myself?
 
-There are multitudes projects and tools shared online, some hidden gems and others well-established and successful.
-But finding them and selecting the most helpful can be like looking for a needle in a haystack.
+There are multitudes projects and tools shared online. Some are hidden gems and others are well-established and successful, but finding them and selecting the most helpful can be like looking for a needle in a haystack.
 Perhaps you are looking for local action project inspiration, or perhaps you have the idea fully formed and are looking for tools and connections.  
 
 
@@ -125,18 +124,6 @@ for q_id, q in questions.items():
 
 
 # ---- DISPLAY RESULTS BUTTON ----
-result_text = f""" 
-### {row["project_name"]}
-
-
-Type: {row["type"]}  
-Summary: {row["short_description"]}    
-🔗 [Take me there!]({row["link"]})  
-
-
--------------------
-"""
-
 if st.button("🚀 Generate My Results"):
     st.write("## Recommended Projects, Methods or Tools:")
 
@@ -146,9 +133,22 @@ if st.button("🚀 Generate My Results"):
         st.write("❌ No matching projects found. Try adjusting your answers!")
     else:
         for _, row in filtered_df.iterrows():
-            st.markdown(result_text)
+            st.markdown(f""" 
+### {row["project_name"]}
+
+
+**Type**: {row["type"]}  
+**Theme**: {row["theme"]}  
+**Summary**: {row["short_description"]}    
+🔗 [Take me there!]({row["link"]})  
+
+
+-------------------
+""")
 
 
 st.markdown('''
-Click here to return to the Local Action Guide Homepage.
+
+
+[Click here to return to the Local Action Guide Homepage.](https://procatinator.com/)
 ''') # add the link
