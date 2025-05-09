@@ -2,7 +2,7 @@
 1,Bioblitz,"This biodiversity data collection method involves recording as many species as possibe within a specific area and time frame, such as one day. Teaching materials are searchable and widespread.",https://media.nationalgeographic.org/assets/file/NationalGeographicBioBlitzGuide.pdf,biodiversity,Method,Yes,Yes,No,No,No,No,13/02/2025,Global
 2,OSPAR,"A method of categorising waste, particuarly plastic, collected from beaches and/or rivers.",https://www.ospar.org/work-areas/eiha/marine-litter/assessment-of-marine-litter/beach-litter,plastic and other waste,Method,Yes,No,No,No,No,No,13/02/2025,Global
 3,Plastic Pirates,"A EU-funded plastic monitoring campaign, with particular focus on lesson material for school children.",https://www.plastic-pirates.eu/en,plastic and other waste,Method,Yes,Yes,No,No,No,No,13/02/2025,Europe
-4,Check de Stadsvergroening,"A project investigating how well water can drain away (for example, in your garden) by measuring soil moisture, porosity and infiltration capacity. ",https://www.tudelft.nl/scd/waterlab/doe-mee-aan-onderzoek/project-2-check-de-stadsvergroening,hydrology and meteorology,Project,Yes,,No,No,No,No,13/02/2025,Netherlands
+4,Meten Sponswerking,"A project investigating how well water can drain away (for example, in your garden) by measuring soil moisture, porosity and infiltration capacity. ",https://www.tudelft.nl/scd/waterlab/doe-mee-aan-onderzoek/project-2-check-de-stadsvergroening,hydrology and meteorology,Project,Yes,,No,No,No,No,13/02/2025,Netherlands
 5,Coast Snap,A community beach monitoring project where phone stands are placed at various coastal viewpoints so participants can take and upload photos of the changing coastline.,https://www.coastsnap.com/ ,hydrology and meteorology,Project,Yes,No,No,Yes,No,Yes,13/02/2025,Global
 6,CoCoRaHs,"The ""Community Collaborative Rain, Hail and Snow Network"", a voluntary precipitation measurement project in the USA.",https://www.cocorahs.org/,hydrology and meteorology,Project,,,No,No,Yes,No,13/02/2025,United States
 7,Crowdwater,A water level tracking app for use in rivers and canals. Observe water influx after rainfall and potential low water levels in dry periods.,https://crowdwater.ch/en/start/,hydrology and meteorology,Project,,,No,Yes,Yes,Yes,13/02/2025,Global
@@ -20,10 +20,10 @@
 19,Litterati,A litter collection app with a tagging system to categorise the litter. Originally established to help influence environmental policy.,https://play.google.com/store/apps/details?hl=en_US&id=org.litterati.android,plastic and other waste,Project,Yes,No,No,Yes,No,No,13/02/2025,United States
 20,Meet je Stad NL,"Parameters: Temperature, soil moisture, humidity, flora",https://meetjestad.net/,hydrology and meteorology,Project,Yes,No,Yes,No,Yes,Yes,13/02/2025,Netherlands
 21,PooPower!,Take a photo of dog poo to track water contamination in areas with many pet dogs.,https://blog.nature.org/2014/12/02/citizen-science-poo-power-biogas-water-quality-dog-bacteria/,plastic and other waste,Project,No,No,No,Yes,No,No,13/02/2025,Australia
-22,RiverDip,Phosphate strips with app,https://riverdip.com/,water quality,Project,Yes,No,Yes,Yes,No,No,13/02/2025,Europe
-23,Sandwatch,A UNESCO initiative to monitor climate change effects on coasts (mostly Small Islands),https://www.sandwatchfoundation.org/,climate change,Project,Yes,Yes,No,No,No,No,13/02/2025,Global
-24,Schone Rivieren,Riverbank monitoring,https://www.schonerivieren.org/knowledge/voor-onderzoekers/,plastic and other waste,Project,Yes,No,No,No,No,No,13/02/2025,Netherlands
-25,Teatime 4 Science,Decomposoition rate with teabags,http://www.teatime4science.org/ ,climate change,Project,,,No,No,No,No,13/02/2025,Global
+22,RiverDip,"Phosphate strips to test in rivers and other water bodies, with an app",https://riverdip.com/,water quality,Project,Yes,No,Yes,Yes,No,No,13/02/2025,Europe
+23,Sandwatch,A UNESCO initiative to monitor climate change effects on coasts (mainly on small islands),https://www.sandwatchfoundation.org/,climate change,Project,Yes,Yes,No,No,No,No,13/02/2025,Global
+24,Schone Rivieren,Riverbank monitoring for trash,https://www.schonerivieren.org/knowledge/voor-onderzoekers/,plastic and other waste,Project,Yes,No,No,No,No,No,13/02/2025,Netherlands
+25,Teatime 4 Science,Investigating the decomposoition rate of tea leaves within plastic teabags.,http://www.teatime4science.org/ ,climate change,Project,,,No,No,No,No,13/02/2025,Global
 26,The Big Microplastic Survey,A global microplastic monitoring initiative.,https://microplasticsurvey.org/,plastic and other waste,Project,,,No,No,No,No,13/02/2025,Global
 27,TreeSnap,An app to record the location and health of threatened trees.,https://treesnap.org/,biodiversity,Project,Yes,No,No,Yes,No,No,14/02/2025,United States
 28,Waterdiertjes NL,Aquatic animals data collection,https://waterdiertjes.nl/#/info,biodiversity,Project,Yes,No,No,Yes,Yes,Yes,13/02/2025,Netherlands
@@ -31,9 +31,9 @@
 30,Drinkable Rivers,"A water quality testing kit, plus organised river walks in Europe you can (partially) join to help raise awareness of waterway health.",https://drinkablerivers.org/,water quality,Tool,Yes,Yes,Yes,No,Yes,No,13/02/2025,Global
 31,Water Rangers,Water testing kit,https://waterrangers.ca/testkits/,water quality,Tool,Yes,No,Yes,Yes,Yes,Yes,13/02/2025,Global
 32,Smartphones4Water,Organise various projects,https://smartphones4water.org/,hydrology and meteorology,Tool,Yes,No,No,No,Yes,Yes,13/02/2025,Global
-33,Amsterdam Sounds Kit Waag,Open-source noise pollution kit,https://amsterdamsounds.waag.org/,noise pollution,Tool,,,Yes,No,No,No,13/02/2025,Netherlands
-34,Deltares Aquality App,Nitrate strip kit and data map,https://nitrate-app.deltares.nl/,water quality,Tool,,,Yes,Yes,Yes,Yes,13/02/2025,Global
-35,Discharge,"Platform for professional surface flow measurements, app",https://discharge.ch/,hydrology and meteorology,Tool,,,No,Yes,Yes,No,13/02/2025,Global
+33,Amsterdam Sounds Kit Waag,An open-source noise pollution testing kit,https://amsterdamsounds.waag.org/,noise pollution,Tool,,,Yes,No,No,No,13/02/2025,Netherlands
+34,Deltares Aquality App,"Nitrate strip kit for water testing, and data map",https://nitrate-app.deltares.nl/,water quality,Tool,,,Yes,Yes,Yes,Yes,13/02/2025,Global
+35,Discharge,"Platform for professional surface flow measurements, with an app",https://discharge.ch/,hydrology and meteorology,Tool,,,No,Yes,Yes,No,13/02/2025,Global
 36,Earth Echo Water Challenge,Water testing kit,https://www.monitorwater.org/order-kits,water quality,Tool,Yes,Yes,Yes,No,No,No,13/02/2025,Global
 37,EpiCollect,Free mobile data-gathering platform,https://five.epicollect.net/,recording data,Tool,Yes,No,No,Yes,Yes,No,13/02/2025,Global
 38,FieldForm Artesia,For recording groundwater data,https://www.artesia-water.nl/software/fieldform/,recording data,Tool,Yes,No,No,Yes,No,No,13/02/2025,Netherlands
@@ -46,13 +46,13 @@
 45,Plastic Avengers,app,https://play.google.com/store/apps/details?id=com.incentro.plastic_soup_surfer,plastic and other waste,Tool,,,No,Yes,No,No,13/02/2025,Netherlands
 46,Pocket Science,Connect a sensor to your phone,https://pocket.science/,various,Tool,,,,,,,13/02/2025,Global
 47,Sensor Community,Air and noise measurement kits and sensor network.,https://sensor.community/en/ ,various,Tool,,,Yes,No,No,Yes,13/02/2025,Global
-48,Waarnemingen NL,Identifying Flora and Fauna with applications on smartphone,https://waarneming.nl/,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Netherlands
+48,Waarnemingen NL,Identifying Flora and Fauna with applications on your smartphone,https://waarneming.nl/,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Netherlands
 49,Weather Observations Website (WOW),Connect your weather station to a global map,https://www.wow.metoffice.gov.uk/,hydrology and meteorology,Tool,Yes,Yes,No,No,Yes,No,13/02/2025,Global
 50,AKVO,"Offers water quality measurment tools and services, e.g. Caddisfly",https://akvo.org/stories/east-africa/using-citizen-science-to-monitor-the-health-of-nairobis-rivers/,water quality,Tool,Yes,No,No,No,No,No,13/02/2025,Global
 51,Curieuze Neuzen,,https://curieuzeneuzen.be/ ,various,Project,No,,,,,,25/02/2025,Belguim
 52,Minka,Biodiversity data collection app,https://minka-sdg.org/,biodiversity,Tool,Yes,No,No,Yes,Yes,No,27/02/2025,Global
 53,BioMARathon,Biodiversity data mass collection event (with Minka),https://aneris.eu/news/thre-biomarathons-kick-supported-aneris,biodiversity,Method,Yes,No,No,Yes,Yes,No,27/02/2025,Europe
-54,Online Voting or Quizzes,"Design a survey, quiz, or poll using an online tool such as Google Forms, to collect feedback or vote on something within the project. For example, volunteers can submit how they would like to be involved in the project using a survey.",https://workspace.google.com/products/forms/,various,Method,,,,,,,,
-55,Scavenger Hunt,"Design a scavenger hunt tailored to adults or children that encourages participants to look for items or organisms of interest. For example, an endangered species bingo card.",,various,Method,,,,,,,,
-56,Hackathon,"Organise a Hackathon to program a tool, analyse the dataset, or any other aspect of the project that would benefit from collective programming effort. ",,various,Method,,,,,,,,
-57,Working Bee,"Organise a Working Bee: a community event were volunteers are assigned duties to collaboratively complete a large and/or multi-faceted task. For example, you might organise a Working Bee to clean a protected nature area, where one team is on rubbish collection, one team is on sign construction, and another team is on barrier fence construction.",,various,Method,,,,,,,,
+54,Online Voting or Quizzes,"Design a survey, quiz, or poll using an online tool such as Google Forms, to collect feedback or vote on something within the project. For example, volunteers can submit how they would like to be involved in the project using a survey.",https://workspace.google.com/products/forms/,various,Method,,,No,,,,,Global
+55,Scavenger Hunt,"Design a scavenger hunt tailored to adults or children that encourages participants to look for items or organisms of interest. For example, an endangered species bingo card.",,various,Method,,,No,,No,No,,Global
+56,Hackathon,"Organise a Hackathon to program a tool, analyse the dataset, or any other aspect of the project that would benefit from collective programming effort. ",,various,Method,,,No,,No,No,,Global
+57,Working Bee,"Organise a Working Bee: a community event were volunteers are assigned duties to collaboratively complete a large and/or multi-faceted task. For example, you might organise a Working Bee to clean a protected nature area, where one team is on rubbish collection, one team is on sign construction, and another team is on barrier fence construction.",,various,Method,,,No,,No,No,,Global
