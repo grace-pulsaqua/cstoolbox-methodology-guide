@@ -40,7 +40,7 @@ q2 = {
 q3 = {
     "number": "3",
     "type": "multiple",
-    "text": "Is there a particular project theme you are interested in?",
+    "text": "Is there a particular project theme you are interested in? Select one or all that apply.",
     "options": ["I'm not sure yet",
                 "__UNIQUE_VALUES__" # df.colname.unique() (have script re-write the json if the unique values are not the same, or maybe load them as a variable beforehand)
                 ],
@@ -51,7 +51,7 @@ q3 = {
 q4 = {
     "number": "4",
     "type": "multiple",
-    "text": "Are you looking for projects in a specific country?",
+    "text": "Are you looking for projects in a specific region?",
     "options": ["I'm not sure yet",
                 "__UNIQUE_VALUES__"
                 ],

@@ -44,7 +44,7 @@
 43,Open Data Kit,Paid data collection software,https://getodk.org/,recording data,Tool,,,,,,,13/02/2025,Global
 44,PlantNet,"Flora and Fauna AI image recognition with an app, with post-validation",https://plantnet.org/en/ ,biodiversity,Tool,Yes,No,No,Yes,Yes,Yes,13/02/2025,Global
 45,Plastic Avengers,app,https://play.google.com/store/apps/details?id=com.incentro.plastic_soup_surfer,plastic and other waste,Tool,,,No,Yes,No,No,13/02/2025,Netherlands
-46,Pocket Science,Connect a sensor to your phone,https://pocket.science/,various,Tool,,,,,,,13/02/2025,
+46,Pocket Science,Connect a sensor to your phone,https://pocket.science/,various,Tool,,,,,,,13/02/2025,Global
 47,Sensor Community,Air and noise measurement kits and sensor network.,https://sensor.community/en/ ,various,Tool,,,Yes,No,No,Yes,13/02/2025,Global
 48,Waarnemingen NL,Identifying Flora and Fauna with applications on smartphone,https://waarneming.nl/,biodiversity,Tool,,,No,Yes,Yes,No,13/02/2025,Netherlands
 49,Weather Observations Website (WOW),Connect your weather station to a global map,https://www.wow.metoffice.gov.uk/,hydrology and meteorology,Tool,Yes,Yes,No,No,Yes,No,13/02/2025,Global
@@ -52,3 +52,7 @@
 51,Curieuze Neuzen,,https://curieuzeneuzen.be/ ,various,Project,No,,,,,,25/02/2025,Belguim
 52,Minka,Biodiversity data collection app,https://minka-sdg.org/,biodiversity,Tool,Yes,No,No,Yes,Yes,No,27/02/2025,Global
 53,BioMARathon,Biodiversity data mass collection event (with Minka),https://aneris.eu/news/thre-biomarathons-kick-supported-aneris,biodiversity,Method,Yes,No,No,Yes,Yes,No,27/02/2025,Europe
+54,Online Voting or Quizzes,"Design a survey, quiz, or poll using an online tool such as Google Forms, to collect feedback or vote on something within the project. For example, volunteers can submit how they would like to be involved in the project using a survey.",https://workspace.google.com/products/forms/,various,Method,,,,,,,,
+55,Scavenger Hunt,"Design a scavenger hunt tailored to adults or children that encourages participants to look for items or organisms of interest. For example, an endangered species bingo card.",,various,Method,,,,,,,,
+56,Hackathon,"Organise a Hackathon to program a tool, analyse the dataset, or any other aspect of the project that would benefit from collective programming effort. ",,various,Method,,,,,,,,
+57,Working Bee,"Organise a Working Bee: a community event were volunteers are assigned duties to collaboratively complete a large and/or multi-faceted task. For example, you might organise a Working Bee to clean a protected nature area, where one team is on rubbish collection, one team is on sign construction, and another team is on barrier fence construction.",,various,Method,,,,,,,,

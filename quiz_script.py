@@ -41,7 +41,7 @@ with open("questions_json.json", "r", encoding="utf-8") as f:
 # ---- UNIQUE VALUE OPTION ASSIGNMENT ----
 # Getting unique values
 unique_themes = proj_df["theme"].unique().tolist() # q3
-unique_regions = proj_df["region"].unique().tolist() # q4
+unique_regions = proj_df["region"].unique().tolist() # q4 NOTE: Need to adjust this so regions such as Europe also include NL, etc
 
 # Replacing "__UNIQUE_VALUES__" with actual values from project df
 questions["q3"]["options"] = unique_themes # q3
@@ -132,6 +132,7 @@ if st.button("🚀 Generate My Results"):
     if filtered_df.empty:
         st.write("❌ No matching projects found. Try adjusting your answers!")
     else:
+        st.write(f"🔍 **Number of results: {len(filtered_df)}**")
         for _, row in filtered_df.iterrows():
             st.markdown(f""" 
 ### {row["project_name"]}
@@ -146,9 +147,5 @@ if st.button("🚀 Generate My Results"):
 -------------------
 """)
 
-
-st.markdown('''
-
-
-[Click here to return to the Local Action Guide Homepage.](https://procatinator.com/)
-''') # add the link
+st.text("")
+st.link_button("↩️ Return to the Local Action Guide Homepage", "https://localactionguide.mykajabi.com/")
