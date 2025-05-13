@@ -55,7 +55,7 @@ if "responses" not in st.session_state:
     st.session_state.responses = {} # "if dictionary of responses doesn't already exist, make one."
 
 # ---- ASK QUESTIONS ----
-st.logo("logo_d4a.jpg", size="large")
+st.logo("d4a_circle.png", size="large")
 st.title("Local Action Guide Quiz")
 st.image("wscu_canoe_2025-04-06.jpg")
 st.markdown('''
@@ -149,3 +149,6 @@ if st.button("🚀 Generate My Results"):
 
 st.text("")
 st.link_button("↩️ Return to the Local Action Guide Homepage", "https://localactionguide.mykajabi.com/")
+st.text("")
+st.image("logo_d4a.jpg", width=150)
+st.image("funded_by_eu_logo.png", width=200)
