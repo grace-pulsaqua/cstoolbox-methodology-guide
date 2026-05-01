@@ -68,7 +68,7 @@ Perhaps you are looking for local action project inspiration, or perhaps you hav
 No matter your situation, if you're looking for guidance then this quiz aims to burn the hay and reveal your needle!  
 
 Please note that this tool is intended as a prototype!  
-Issues such as certain answer combinations providing no results and location bugs will be addressed when a new version is developed.
+Issues such as certain answer combinations providing no results and location bugs will be addressed when a new version is developed.  
 ----------------------------------------------------
 ''')
 
