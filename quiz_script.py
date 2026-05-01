@@ -60,7 +60,7 @@ st.title("Local Action Guide Quiz")
 st.image("wscu_canoe_2025-04-06.jpg")
 st.markdown('''
 ----------------------------------------------------
-What events are already being organised, and what could I organise myself?
+What events are already being organised, and what could I organise myself?  
 
 There are multitudes projects and tools shared online. Some are hidden gems and others are well-established and successful, but finding them and selecting the most helpful can be like looking for a needle in a haystack.
 Perhaps you are looking for local action project inspiration, or perhaps you have the idea fully formed and are looking for tools and connections.  
